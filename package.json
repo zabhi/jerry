@@ -1,0 +1,33 @@
+{
+  "name": "jerry",
+  "version": "0.0.1",
+  "description": "Starter for an npm project",
+  "scripts": {
+    "test": "jest",
+    "prettier": "prettier --write \"src/**/*.@(js|ts|tsx|css)\"",
+    "prettier:check": "prettier --check \"src/**/*.@(js|ts|tsx|css)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zabhi/jerry.git"
+  },
+  "keywords": [
+    "npm",
+    "range",
+    "collection"
+  ],
+  "author": "zabhi",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/zabhi/jerry/issues"
+  },
+  "homepage": "https://github.com/zabhi/jerry#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.3",
+    "jest": "^24.1.0",
+    "prettier": "^1.16.4",
+    "ts-jest": "^23.10.5",
+    "tslib": "^1.9.3",
+    "typescript": "^3.3.3"
+  }
+}
